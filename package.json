@@ -1,0 +1,24 @@
+{
+  "name": "ramazan-bot",
+  "version": "1.0.0",
+  "description": "Ramazan ayı için iftar ve sahur vakitlerini gösteren Discord botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "croxydb": "^0.0.7",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2",
+    "moment-timezone": "^0.5.44"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
